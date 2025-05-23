@@ -52,5 +52,47 @@ The `prompt-templates/` directory includes ready-to-use prompts for interacting 
 ## 💬 Prompt Examples
 
 **→ Understanding rules**  
-```txt
 Read everything in `.cursor/rules`, summarize each rule in your own words, and confirm you'll follow them.
+
+### Adapting rules for a project
+Update rules in `.cursor/rules/{rule}` for our project: [project description].  
+Tech stack: [stack]. Team: [team].  
+Keep the spirit of must-have rules.
+
+### Writing custom project rules
+- Tech stack: `[your stack]`  
+- Architecture: `[how the app is structured]`  
+- Problems: `[what issues you’re solving]`  
+- Code values: `[clarity, DRY, testability, etc.]`  
+- Task style: `[how you approach problems]`
+
+### Writing personal rules
+- I prefer `[your coding style]`  
+- I use `[frameworks/libraries]`  
+- Code must be `[readable, tested, fast, etc.]`  
+- I often struggle with `[X]`  
+- Never do `[bad practices]`
+
+## 📘 Writing Great READMEs
+Use the included template to create clean, professional README files with:
+- Clear project summary  
+- Problem solved  
+- Features  
+- Stack  
+- Install steps  
+- Usage examples  
+- Folder structure  
+- Config info  
+- Contributing  
+- License  
+- Credits  
+
+## 🧠 Tips for Effective Rule Management
+- Keep rules short and meaningful (ideally <100 lines)  
+- Avoid contradictions  
+- Use `Rule type: Always` only for critical rules  
+- Ask Cursor to review and summarize rules before you begin  
+- If rules are ignored, simplify or reduce them
+
+**Found a better way to write rules?**  
+Open a PR — we’d love to learn from it ❤️
